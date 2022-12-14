@@ -1,29 +1,29 @@
 ---
-bio: My research interests include distributed robotics, mobile computing and programmable
-  matter.
+bio: My research interests include labor economics, rural and regional economics, time series analysis and applied econometrics.
 education:
   courses:
-  - course: PhD in Artificial Intelligence
-    institution: Stanford University
-    year: 2012
-  - course: MEng in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2009
-  - course: BSc in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2008
-email: ""
-first_name: Alice
+  - course: PhD in Economics
+    institution: Virginia Tech
+    year: 2022
+  - course: BSc in Comprehensive Mathematics
+    institution: Concord University
+    year: 2014
+  - course: BSc in Mathematics Education
+    institution: Concord University
+    year: 2014
+email: "joshua-beverly@bethel.edu"
+first_name: Josh
 highlight_name: true
 interests:
-- Artificial Intelligence
-- Computational Linguistics
-- Information Retrieval
-last_name: Wu
+- Labor Economics
+- Rural and Regional Economics
+- Time Series
+- Applied Econometrics
+last_name: Beverl
 organizations:
-- name: Virginia Tech
-  url: https://www.stanford.edu/
-role: Professor of Artificial Intelligence
+- name: Bethel University
+  url: https://www.bethel.edu/
+role: Adjunct Professor of Economics
 social:
 - icon: envelope
   icon_pack: fas
@@ -33,32 +33,30 @@ social:
   icon: twitter
   icon_pack: fab
   label: Follow me on Twitter
-  link: https://twitter.com/GeorgeCushen
+  link: https://twitter.com/Docjbev
 - icon: graduation-cap
   icon_pack: fas
-  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+  link: https://scholar.google.co.uk/citations?user=w-KbPYMAAAAJ
 - icon: github
   icon_pack: fab
-  link: https://github.com/gcushen
+  link: https://github.com/jpbeverly
 - icon: linkedin
   icon_pack: fab
-  link: https://www.linkedin.com/
+  link: https://www.linkedin.com/in/joshua-beverly-0a99a998/
 - icon: cv
   icon_pack: ai
-  link: uploads/resume.pdf
+  link: uploads/beverly_cv.pdf
 status:
-  icon: ☕️
+  icon: 
 superuser: true
 title: Josh Beverly 
 ---
 
-Josh Beverly is an adjunct professor at Bethel University, where he currently teaches two sections of Principles of Economics and one section of Personal Finance. Josh recently finished his Ph.D. in Economics from the Agricultural and Applied Economics Department at Virginia Tech after receiving a Bachelor’s in Mathematics and Mathematics Education at Concord University. Before attending graduate school, Josh taught high school math and computer science for several years in southern West Virginia.
+Josh Beverly is an adjunct professor at Bethel University, where he currently teaches two sections of Principles of Economics and one section of Personal Finance. 
 
-During his time at Virginia Tech, Josh also worked as a fellow for the Data Science for the Public Good program, spearheading two research projects for Virginia Cooperative Extension and several Virginia County stakeholders.
 
-Recently, he has applied his passion for economics and data science in his research into labor force participation and unemployment rate dynamics. Josh’s research offers policy prescriptions for labor issues in economically distressed and low socio-economic areas using dynamic factor models, vector error correction models, Bayesian analysis, and data tools such as R, MATLAB, Gauss, and EViews. In his most recent papers, Josh has focused primarily on West Virginia and the Appalachian Region.
+Josh recently finished his Ph.D. in Economics from the Agricultural and Applied Economics Department at Virginia Tech. Josh's research interests include labor economics, rural and regional economics, time series analysis and applied econometrics. 
 
-Check out Josh’s research page and online dashboard for more information on his research. See below for updates on Josh’s publications and presentations, or download his Curriculum Vitae. When free, he enjoys taking his dog for walks, watching movies, learning to play instruments, and working on projects around the house.
+When free, he enjoys taking his dog for walks, watching movies, learning to play instruments, and working on projects around the house.
 
-Feel free to connect with Josh at Github, Linkedin, Twitter, Instagram, or email. Please leave your thoughts or share your ideas in his blog as well.
 {style="text-align: justify;"}

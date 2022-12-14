@@ -40,21 +40,71 @@ sections:
     text: null
     username: admin
   id: about
+- block: collection
+  content:
+    count: 1
+    filters:
+      author: ""
+      category: ""
+      exclude_featured: false
+      exclude_future: false
+      exclude_past: false
+      folders:
+      - more
+      publication_type: ""
+      tag: ""
+    offset: 0
+    order: desc
+    subtitle: ""
+    text: ""
+    title: More About Me
+  design:
+    columns: "2"
+    view: compact
+  id: more
 - block: features
   content:
     items:
-    - description: 90%
+    - description: Labor Force Participation and Unemployment
+      icon: person-digging
+      icon_pack: fas
+      name: Labor Economics
+    - description: Economically Distressed Regions
+      icon: mountain-sun
+      icon_pack: fas
+      name: Rural and Regional Economics
+    - description: Vector Auto-regression/Vector Error Correction Dynamic Factor Models/Panel Regression
+      icon: chart-line
+      icon_pack: fas
+      name: Time-Series and Applied Econometrics
+    title: Research Interests
+- block: features
+  content:
+    items:
+    - description: Modeling, Visualizations, Dashboards, Websites
       icon: r-project
       icon_pack: fab
       name: R
-    - description: 100%
-      icon: chart-line
+    - description: 
+      icon: m
       icon_pack: fas
-      name: Statistics
-    - description: 10%
-      icon: camera-retro
+      name: MATLAB
+    - description: 
+      icon: s
       icon_pack: fas
-      name: Photography
+      name: Stata
+    - description: Version Control
+      icon: github
+      icon_pack: fab
+      name: Github
+    - description:
+      icon: e
+      icon_pack: fas
+      name: Eviews
+    - description: 
+      icon: g
+      icon_pack: fas
+      name: Gauss
     title: Skills
 - block: experience
   content:
@@ -207,29 +257,24 @@ sections:
 - block: contact
   content:
     address:
-      city: Stanford
+      city: St. Paul
       country: United States
       country_code: US
-      postcode: "94305"
-      region: CA
-      street: 450 Serra Mall
-    appointment_url: https://calendly.com
+      postcode: "55112"
+      region: MN
+      street:  3900 Bethel Drive
+    appointment_url: https://calendly.com/joshua-beverly
     autolink: true
     contact_links:
     - icon: twitter
       icon_pack: fab
-      link: https://twitter.com/Twitter
+      link: https://twitter.com/Docjbev
       name: DM Me
-    - icon: skype
-      icon_pack: fab
-      link: skype:echo123?call
-      name: Skype Me
     - icon: video
       icon_pack: fas
       link: https://zoom.com
-      name: Zoom Me
-    directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
-    email: test@example.org
+      name: Josh Beverly
+    email: josha-beverly@bethel.edu
     form:
       formspree:
         id: null
@@ -237,12 +282,11 @@ sections:
         captcha: false
       provider: netlify
     office_hours:
-    - Monday 10:00 to 13:00
-    - Wednesday 09:00 to 10:00
+    - Monday 12:15 to 1:15
+    - Wednesday 12:15 to 1:15
     phone: 888 888 88 88
     subtitle: null
-    text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mi diam, venenatis
-      ut magna et, vehicula efficitur enim.
+    text: Feel free to connect with Josh at Github, Linkedin, Twitter, Instagram, email. Please leave your thoughts or share your ideas in his blog as well.  
     title: Contact
   design:
     columns: "2"
