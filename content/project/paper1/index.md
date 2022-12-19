@@ -1,6 +1,24 @@
 ---
-title: "Paper1"
 output: html_document
+date: "2016-04-27T00:00:00Z"
+external_link: ""
+image:
+  caption: Photo by rawpixel on Unsplash
+  focal_point: Smart
+links:
+- icon: twitter
+  icon_pack: fab
+  name: Follow
+  url: https://twitter.com/georgecushen
+slides: example
+summary: This is a test 2
+tags:
+- Deep Learning
+title: Paper 1
+url_code: ""
+url_pdf: ""
+url_slides: ""
+url_video: ""
 ---
 
 
@@ -30,6 +48,6 @@ summary(cars)
 
 You can also embed plots, for example:
 
-<img src="/project/paper1/paper1_files/figure-html/pressure-1.png" width="672" />
+<img src="{{< blogdown/postref >}}index_files/figure-html/pressure-1.png" width="672" />
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.

@@ -105,65 +105,113 @@ sections:
       icon: g
       icon_pack: fas
       name: Gauss
-    title: Skills
+    title: Technical Skills
 - block: experience
   content:
     date_format: Jan 2006
     items:
-    - company: GenCoin
-      company_logo: org-gc
-      company_url: ""
+    - company: Bethel University
+      company_logo: bethel-logo-vertical-color
+      company_url: "https://www.bethel.edu/"
       date_end: ""
-      date_start: "2021-01-01"
+      date_start: "2022-08-01"
       description: |2-
-          Responsibilities include:
-
-          * Analysing
-          * Modelling
-          * Deploying
-      location: California
-      title: CEO
-    - company: University X
-      company_logo: org-x
-      company_url: ""
-      date_end: "2020-12-31"
-      date_start: "2016-01-01"
-      description: Taught electronic engineering and researched semiconductor physics.
-      location: California
-      title: Professor of Semiconductor Physics
+          Skills include:
+          * Verbal and Written Communication
+          * Project and Time Management
+          * Visualizing, Analyzing, and Modeling Data
+          * Conference Presentations
+          * Publishable Research
+          * Teaching
+      location: St. Paul, MN
+      title: Adjunct Professor
+    - company: Data Science for the Public Good
+      company_logo: dspg
+      company_url: "https://datascienceforthepublicgood.org/"
+      date_end: "2020-08-31"
+      date_start: "2020-05-01"
+      description: |2-
+          Skills include:
+          * Leadership and Team Management
+          * Written and Verbal Communication
+          * R Dashboards, Websites
+          * Project Reporting and Presentations
+          * Policy Recommendations
+      location: Arlington, VA (Virtual)
+      title: Research Fellow and Project Team Leader
+    - company: Virginia Tech
+      company_logo: Virginia_Tech_Hokies_logo
+      company_url: "https://www.vt.edu/"
+      date_end: "2022-12-01"
+      date_start: "2018-08-01"
+      description: |2-
+          Skills include:
+          * Teaching
+          * Collecting, Organizing, Visualizing, and Modeling data
+          * Interpreting and Presenting Project Results
+          * Data Tools: R, Stata, MATLAB, Gauss, Python, and Eviews
+          * Other Tools: LaTex, Excel
+      location: Blacksburg, VA
+      title: Graduate Research Teaching Assistant
+    - company: Shady Spring High School
+      company_logo: shady
+      company_url: "https://sshs.rale.k12.wv.us/"
+      date_end: "2018-06-01"
+      date_start: "2014-08-01"
+      description: |2-
+          Skills include:
+          * Leadership and Collaboration
+          * Teaching
+          * Raleigh County Mathematics Team Member
+          * Assistant Director of National Honor Society
+          * Math Club Chair
+          * Assistant Volleyball Coach
+      location: Shady Spring, WV
+      title: Mathematics and Computer Science Teacher
     title: Experience
   design:
     columns: "2"
-- block: accomplishments
+- block: experience
   content:
     date_format: Jan 2006
     items:
-    - certificate_url: https://www.coursera.org
-      date_end: ""
-      date_start: "2021-01-25"
-      description: ""
-      organization: Coursera
-      organization_url: https://www.coursera.org
-      title: Neural Networks and Deep Learning
-      url: ""
-    - certificate_url: https://www.edx.org
-      date_end: ""
-      date_start: "2021-01-01"
-      description: Formulated informed blockchain models, hypotheses, and use cases.
-      organization: edX
-      organization_url: https://www.edx.org
-      title: Blockchain Fundamentals
-      url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-    - certificate_url: https://www.datacamp.com
-      date_end: "2020-12-21"
-      date_start: "2020-07-01"
-      description: ""
-      organization: DataCamp
-      organization_url: https://www.datacamp.com
-      title: Object-Oriented Programming in R
-      url: ""
-    subtitle: null
-    title: Accomplish&shy;ments
+    - company: Virginia Tech
+      company_logo: Virginia_Tech_Hokies_logo
+      company_url: "https://www.vt.edu/"
+      date_end: "2022-11-03"
+      date_start: "2018-08-01"
+      description: |2-
+          Achievements:
+          * Summa Cum Laude
+      location: Blacksburg, VA
+      title: Ph.D. in Economics
+    - company: Concord University
+      company_logo: concord
+      company_url: "https://concord.edu/"
+      date_end: "2014-12-01"
+      date_start: "2011-08-01"
+      description: |2-
+          Achievements:
+          * Valedictorian
+          * Summa Cum Laude
+          * Dean's List
+          * Bruce Covey Mathematics Prize
+      location: Athens, WV
+      title: B.S. Comprehensive Mathematics
+    - company: Concord University
+      company_logo: concord
+      company_url: "https://concord.edu/"
+      date_end: "2014-12-01"
+      date_start: "2011-08-01"
+      description: |2-
+          Achievements:
+          * Valedictorian
+          * Summa Cum Laude
+          * Dean's List
+          * Underwood Smith Scholarship Recipient
+      location: Athens, WV
+      title: B.S. Mathematics Education
+    title: Education
   design:
     columns: "2"
 - block: collection
@@ -206,14 +254,7 @@ sections:
     columns: "1"
     flip_alt_rows: false
     view: showcase
-  id: projects
-- block: markdown
-  content:
-    subtitle: ""
-    text: '{{< gallery album="demo" >}}'
-    title: Gallery
-  design:
-    columns: "1"
+  id: projects 
 - block: collection
   content:
     filters:
@@ -286,7 +327,7 @@ sections:
     - Wednesday 12:15 to 1:15
     phone: 888 888 88 88
     subtitle: null
-    text: Feel free to connect with Josh at Github, Linkedin, Twitter, Instagram, email. Please leave your thoughts or share your ideas in his blog as well.  
+    text: Feel free to connect with Josh through Github, Linkedin, Twitter, Instagram, email. Please leave your thoughts or share your ideas in his blog as well.  
     title: Contact
   design:
     columns: "2"

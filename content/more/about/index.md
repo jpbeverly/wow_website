@@ -1,14 +1,13 @@
 ---
 authors:
 - admin
-- Josh Beverly
 categories:
 - About
 date: "2020-12-13T00:00:00Z"
 draft: false
 featured: false
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/CpkOjOcXdUY)'
+  caption: 'Image credit: [**Bethel University**](https://bethel.edu)'
   focal_point: ""
   placement: 2
   preview_only: false
@@ -37,22 +36,22 @@ Feel free to connect with Josh at Github, Linkedin, Twitter, Instagram, or [emai
 ## Academic Papers in Review
 | Title       |Co-Authors        |Journal   |Link        |
 | ----------- |----------- |----------- |----------- |
-|[The Dynamics of Labor Force Participation: Is All Quiet on the Appalachian Front?](https://www.zhaohuabing.com/post/2021-08-26-istio-handbook/)|Clinton L. Neill, Shamar Stewart |*Emprical Economics*|[View](https://item.jd.com/13200745.html)|
-|[Labor Force Participation Rate Comovements in Metro/Non-metro West Virginia Counties](https://www.zhaohuabing.com/post/2021-09-08-distributed-tracing-with-jaeger-kubernetes-and-istio/)|Shamar Stewart, Clinton L. Neill| *Journal of Labor Economics* |[View](https://www.manning.com/liveprojectseries/distributed-tracing-ser)|
+|1. [The Dynamics of Labor Force Participation: Is All Quiet on the Appalachian Front?](https://www.zhaohuabing.com/post/2021-08-26-istio-handbook/)|Clinton L. Neill, Shamar Stewart |*Emprical Economics*|[View](https://item.jd.com/13200745.html)|
+|2. [Labor Force Participation Rate Comovements in Metro/Non-metro West Virginia Counties](https://www.zhaohuabing.com/post/2021-09-08-distributed-tracing-with-jaeger-kubernetes-and-istio/)|Shamar Stewart, Clinton L. Neill| *Journal of Labor Economics* |[View](https://www.manning.com/liveprojectseries/distributed-tracing-ser)|
 
 ## Working Papers
 | Title       |Co-Authors   |
 | ----------- |----------- |
-|The Unemployment Invariance Hypothesis in West Virginia: A Tale of Two Indicators |Clinton L. Neill, Shamar Stewart |
+|1. The Unemployment Invariance Hypothesis in West Virginia: A Tale of Two Indicators |Clinton L. Neill, Shamar Stewart |
 
 
 ## Work in Progress
 | Title       |Co-Authors |
 | ----------- |----------- |
-|The Impact of Gasoline Tractors on the Appalachian Labor Force and Compensation|Clinton L. Neill|
-|The Effects of Spatial Characteristics and Chronic Health Spending on Labor Force Participation in Appalachia|Clinton L. Neill|
-|Intergenerational Poverty in the Appalachian Region|Mariah Beverly|
-|Bounding Porous Exponential Domination Number of Apollonian Networks|Mariah Farley, Chris McClain, Felicia Stover|
+|1. The Impact of Gasoline Tractors on the Appalachian Labor Force and Compensation|Clinton L. Neill|
+|2. The Effects of Spatial Characteristics and Chronic Health Spending on Labor Force Participation in Appalachia|Clinton L. Neill|
+|3. Intergenerational Poverty in the Appalachian Region|Mariah Beverly|
+|4. Bounding Porous Exponential Domination Number of Apollonian Networks|Mariah Farley, Chris McClain, Felicia Stover|
 
 
 
@@ -73,16 +72,16 @@ Feel free to connect with Josh at Github, Linkedin, Twitter, Instagram, or [emai
 ## Courses Taught
 | Course |Year(s) |School | Position | Students* |
 | ----------- |----------- |----------- |----------- |-----------|
-|Personal Finance| 2023| Bethel University| Instructor| |
-|Principles of Micro/Macro Economics|2022-2023| Bethel University| Instructor| 220 |
-|Economics of the Food and Fiber Systems| 2022| Virginia Tech| Instructor| 65|
-|Applied Economic Forecasting (Undergrad/Grad)|2021|Virginia Tech| Graduate Teaching Assistant| 15|
-|Agricultural Production and Consumption| 2019| Virginia Tech| Graduate Teaching Assistant| 45|
-|Foundations of Agribusiness| 2018-2019| Virginia Tech| Graduate Teaching Assistant| 100|
-|Computer Science (Java)| 2016-2018| Shady Spring High School| Instructor| 17|
-|Advanced Placement Calculus BC| 2016-2018| Shady Spring High School| Instructor|15|
-|Algebra 3 & Trigonometry|2014-2018| Shady Spring High School| Instructor|75|
-|Algebra 2 & Geometry| 2014-2018| Shady Spring High School| Instructor|180|
-|Algebra 1| 2014-2017| Shady Spring High School|Instructor|150|
+|1. Personal Finance| 2023| Bethel University| Instructor| |
+|2. Principles of Micro/Macro Economics|2022-2023| Bethel University| Instructor| 220 |
+|3. Economics of the Food and Fiber Systems| 2022| Virginia Tech| Instructor| 65|
+|4. Applied Economic Forecasting (Undergrad/Grad)|2021|Virginia Tech| Graduate Teaching Assistant| 15|
+|5. Agricultural Production and Consumption| 2019| Virginia Tech| Graduate Teaching Assistant| 45|
+|6. Foundations of Agribusiness| 2018-2019| Virginia Tech| Graduate Teaching Assistant| 100|
+|7. Computer Science (Java)| 2016-2018| Shady Spring High School| Instructor| 17|
+|8. Advanced Placement Calculus BC| 2016-2018| Shady Spring High School| Instructor|15|
+|9. Algebra 3 & Trigonometry|2014-2018| Shady Spring High School| Instructor|75|
+|10. Algebra 2 & Geometry| 2014-2018| Shady Spring High School| Instructor|180|
+|11. Algebra 1| 2014-2017| Shady Spring High School|Instructor|150|
 
 *The number of students is approximate.
