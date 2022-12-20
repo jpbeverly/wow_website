@@ -242,7 +242,29 @@ sections:
   design:
     columns: "2"
     view: compact
-  id: talks  
+  id: talks 
+- block: collection
+  content:
+    count: 1
+    filters:
+      author: ""
+      category: ""
+      exclude_featured: false
+      exclude_future: false
+      exclude_past: false
+      folders:
+      - classes
+      publication_type: ""
+      tag: ""
+    offset: 0
+    order: desc
+    subtitle: ""
+    text: ""
+    title: My Classes
+  design:
+    columns: "2"
+    view: compact
+  id: classes  
 - block: collection
   content:
     count: 5

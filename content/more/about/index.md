@@ -7,20 +7,20 @@ date: "2020-12-13T00:00:00Z"
 draft: false
 featured: false
 image:
-  caption: 'Image credit: [**Bethel University**](https://bethel.edu)'
+  caption:
   focal_point: ""
   placement: 2
   preview_only: false
 lastmod: "r Sys.Date()"
 projects: []
 subtitle: "Welcome!"
-summary: "Learn More About Josh!"
+summary: 
 tags:
 - About Me
 - My Work
 - My Presentations
 - Course Taught
-title: More About Me
+title: "Click here to Learn More About Me!"
 ---
 **_Josh Beverly_** is an adjunct professor at Bethel University, where he currently teaches two sections of Principles of Economics and one section of Personal Finance. Josh recently finished his Ph.D. in Economics from the Agricultural and Applied Economics Department at Virginia Tech after receiving a Bachelor's in Mathematics and Mathematics Education at Concord University. Before attending graduate school, Josh taught high school math and computer science for several years in southern West Virginia.
 
