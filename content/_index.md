@@ -214,28 +214,6 @@ sections:
     title: Education
   design:
     columns: "2"
-- block: collection
-  content:
-    count: 5
-    filters:
-      author: ""
-      category: ""
-      exclude_featured: false
-      exclude_future: false
-      exclude_past: false
-      folders:
-      - post
-      publication_type: ""
-      tag: ""
-    offset: 0
-    order: desc
-    subtitle: ""
-    text: ""
-    title: Recent Posts
-  design:
-    columns: "2"
-    view: compact
-  id: posts
 - block: portfolio
   content:
     buttons:
@@ -258,38 +236,35 @@ sections:
 - block: collection
   content:
     filters:
-      featured_only: true
-      folders:
-      - publication
-    title: Featured Publications
-  design:
-    columns: "2"
-    view: card
-  id: featured
-- block: collection
-  content:
-    filters:
-      exclude_featured: true
-      folders:
-      - publication
-    text: |-
-      {{% callout note %}}
-      Quickly discover relevant content by [filtering publications](./publication/).
-      {{% /callout %}}
-    title: Recent Publications
-  design:
-    columns: "2"
-    view: citation
-- block: collection
-  content:
-    filters:
       folders:
       - event
     title: Recent & Upcoming Talks
   design:
     columns: "2"
     view: compact
-  id: talks
+  id: talks  
+- block: collection
+  content:
+    count: 5
+    filters:
+      author: ""
+      category: ""
+      exclude_featured: false
+      exclude_future: false
+      exclude_past: false
+      folders:
+      - post
+      publication_type: ""
+      tag: ""
+    offset: 0
+    order: desc
+    subtitle: ""
+    text: ""
+    title: Recent Posts
+  design:
+    columns: "2"
+    view: compact
+  id: posts  
 - block: tag_cloud
   content:
     title: Popular Topics
@@ -315,7 +290,7 @@ sections:
       icon_pack: fas
       link: https://zoom.com
       name: Josh Beverly
-    email: josha-beverly@bethel.edu
+    email: joshua-beverly@bethel.edu
     form:
       formspree:
         id: null
@@ -325,7 +300,6 @@ sections:
     office_hours:
     - Monday 12:15 to 1:15
     - Wednesday 12:15 to 1:15
-    phone: 888 888 88 88
     subtitle: null
     text: Feel free to connect with Josh through Github, Linkedin, Twitter, Instagram, email. Please leave your thoughts or share your ideas in his blog as well.  
     title: Contact
