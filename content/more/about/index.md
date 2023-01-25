@@ -22,7 +22,7 @@ tags:
 - Course Taught
 title: "Click here to Learn More About Me!"
 ---
-**_Josh Beverly_** is an adjunct professor at Bethel University, where he currently teaches two sections of Principles of Economics and one section of Personal Finance. Josh recently finished his Ph.D. in Economics from the Agricultural and Applied Economics Department at Virginia Tech after receiving a Bachelor's in Mathematics and Mathematics Education at Concord University. Before attending graduate school, Josh taught high school math and computer science for several years in southern West Virginia.
+**_Josh Beverly_** is currently an adjunct professor at Bethel University, where he currently teaches two sections of Principles of Economics and one section of Personal Finance. Josh recently finished his Ph.D. in Economics from the Agricultural and Applied Economics Department at Virginia Tech after receiving a Bachelor's in Mathematics and Mathematics Education at Concord University. Before attending graduate school, Josh taught high school math and computer science for several years in southern West Virginia.
 
 During his time at Virginia Tech, Josh also worked as a fellow for the Data Science for the Public Good program, spearheading two research projects for Virginia Cooperative Extension and several Virginia County stakeholders.
   

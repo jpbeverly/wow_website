@@ -28,7 +28,7 @@ publishDate: "2022-12-19T00:00:00Z"
 slides: aaea_lightning
 summary: 
 tags: []
-title: AAEA Virtual Presentation
+title: AAEA Virtual Presentation 2022
 subtitle: "The Dynamics of Labor Force Participation: Is All Quiet on the Appalachian Front?"
 url_code: ""
 url_pdf: ""

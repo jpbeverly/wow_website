@@ -21,9 +21,9 @@ interests:
 - Applied Econometrics
 last_name: Beverl
 organizations:
-- name: Bethel University
-  url: https://www.bethel.edu/
-role: Adjunct Professor of Economics
+- name: 
+  url: 
+role: Data Scientist and Adjunct Professor of Economics
 social:
 - icon: envelope
   icon_pack: fas
@@ -52,7 +52,7 @@ superuser: true
 title: Josh Beverly 
 ---
 
-Josh Beverly is an adjunct professor at Bethel University, where he currently teaches two sections of Principles of Economics and one section of Personal Finance. 
+Josh Beverly is currently an adjunct professor at Bethel University, where he currently teaches two sections of Principles of Economics and one section of Personal Finance. 
 
 
 Josh recently finished his Ph.D. in Economics from the Agricultural and Applied Economics Department at Virginia Tech. Josh's research interests include labor economics, rural and regional economics, time series analysis and applied econometrics. 

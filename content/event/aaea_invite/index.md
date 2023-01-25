@@ -28,7 +28,7 @@ publishDate: "2022-12-19T00:00:00Z"
 slides: aaea_invite
 summary: 
 tags: []
-title: AAEA Invited Presentation
+title: AAEA Invited Presentation 2023
 subtitle: Labor Force Participation Rate Comovements in West Virginia Counties
 url_code: ""
 url_pdf: ""

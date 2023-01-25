@@ -1,20 +1,23 @@
 ---
 output: html_document
-date: "2016-04-27T00:00:00Z"
+date: "2022-11-04T00:00:00Z"
 external_link: ""
 image:
-  caption: Photo by rawpixel on Unsplash
+  caption: Photo by **Unsplash**
   focal_point: Smart
 links:
 - icon: twitter
   icon_pack: fab
   name: Follow
-  url: https://twitter.com/georgecushen
+  url: https://twitter.com/Docjbev
 slides: example
-summary: This is a test 2
+summary: This study examines the dynamic effects of national, regional, and local labor market shocks on labor force participation rates (LFPR) in Appalachia.
 tags:
-- Deep Learning
-title: Paper 1
+- Dynamic Factor Analysis
+- Bayesian Analysis
+- Labor Force Participation
+- Appalachian Region
+title: "The Dynamics of Labor Force Participation: Is All Quiet on the Appalachian Front?"
 url_code: ""
 url_pdf: ""
 url_slides: ""
@@ -24,23 +27,74 @@ url_video: ""
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
+To read this paper: [click here!](https://ageconsearch.umn.edu/record/322258/files/22918.pdf)
 
-## R Markdown
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+## Summary
+The effects of labor market shocks often vary across and within geographical regions but little work has been done on the intertemporal dynamics of U.S. state-wide and regional labor force participation rates.  Labor force participation rates in the Appalachian Region are particularly interesting because:
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+1. Academic literature documents a unique relationsbhip between the labor force participation rate (LFPR) the Appalachian Region.
 
-```{r cars}
-summary(cars)
+2. Given persistent economic disparity and poverty in the region, there is large potential gains in economic growth for Appalachia and subsequently the rest of the U.S. with improvements in this region. 
+
+3. Appalachian Region counties are apart of U.S. states that make up 31% of U.S. gross domestic product (GDP)
+
+
+```{r pic, echo=FALSE, fig.align='center', out.width='90%', fig.cap='The Appalachian Region'}
+#![The Appalachian Region](app_region2.png)
+
+knitr::include_graphics("app_region2.png")
+
 ```
 
-## Including Plots
 
-You can also embed plots, for example:
+In this project, we examine the role and relative importance of geographic levels themselves on the change in state labor force participation rates. We decompose state LFPR into national (also referred to as a common component), regional (Appalachia or non-Appalachia), and state-specific (idiosyncratic) latent factors estimated using a Dynamic Factor Model (DFM) with time-varying (TV) and stochastic volatility (SV) components. 
 
-```{r pressure, echo=FALSE}
-plot(pressure)
+```{r pic2, echo=FALSE, fig.align='center', out.width='90%', fig.cap='Regionally Aggregated State Level Percent Contribution to National GDP'}
+
+knitr::include_graphics("per_cont_GDP.png")
+
 ```
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+We assume that changes in state LFPR are described by these factors which capture national, regional, and state comovements. By calculating the correlation of LFPR in each U.S. state in each time period with these factors, we are able to determine the role and relative importance each contributes to changing LFPRs under different economic shocks and trends. To do this, we use monthly labor force participation rates for the 50 U.S. states and Washington D.C. over the period January 1976 - December 2020.
+
+```{r pic3, echo=FALSE, fig.align='center', out.width='90%', fig.cap='Change in (Selected) U.S. State Labor Force Participation Rates'}
+
+knitr::include_graphics("ChangeLFP3.png")
+
+```
+
+## Results 
+
+We find substantial variation in state LFPR comovement over time, geographic level, and during different macroeconomic situations. We find that the choice of time and state is crucial to the relative importance of the level of synchronization on observed change in LFPR variations. For example, around 97\% of the variation in the LFPR in West Virginia is explained by the Appalachian regional factor in 1982, but less than 1\% of the variation is explained by this same factor in 2010.
+
+```{r pic4, echo=FALSE, fig.align='center', out.width='100%', fig.cap='Variance Contribution of Factor by State in the Appalachian Region'}
+
+knitr::include_graphics("var_contr_area_app5.png")
+
+```
+
+
+Additionally, the West Virginia LFPR is strongly connected with the synchronization of LFPR in the Appalachian region for periods coinciding with regional labor market shocks such as the coal boom (1970s) and bust (1980s).
+
+```{r pic5, echo=FALSE, fig.align='center', out.width='110%', fig.cap='Average Cross State Correlation'}
+
+knitr::include_graphics("csc_panel.png")
+
+```
+
+
+We also find that in the last three decades there has been an increase in synchronization of state LFPR with the national factor. Yet, divergence occurs in this trend of synchronization with the national factor during periods of national recessions, regional labor market shocks or restructuring, and state labor shocks like natural disasters. 
+
+
+```{r pic6, echo=FALSE, fig.align='center', out.width='110%', fig.cap='National Factor Loadings of Appalachian States'}
+
+knitr::include_graphics("CommonFactorAppLoadings.png")
+
+```
+
+
+## Policy Recommendations
+Labor market policies that are broader or more national in scope may be appropriate during business-cycle expansions as they would take advantage of the increased synchronization of LFPR. These broad policies would potentially induce employment and GDP growth for both struggling and prospering areas alike. In contrast, during periods of divergence in state LFPR (like recessions) more localized and targeted labor policies would be more efficient. In other words, targeting less aggregated geographic levels when LFPR changes are heterogeneous across states could induce employment and GDP growth for struggling areas without the risk of unintended effects from ``one-size fits all'' policies.
+

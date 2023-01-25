@@ -1,31 +1,136 @@
 ---
-date: "2016-04-27T00:00:00Z"
+output: html_document
+date: "2022-11-03T00:00:00Z"
 external_link: ""
 image:
-  caption: Photo by rawpixel on Unsplash
+  caption: Photo by **Unsplash**
   focal_point: Smart
 links:
 - icon: twitter
   icon_pack: fab
   name: Follow
-  url: https://twitter.com/georgecushen
-slides: example
-summary: This is a test
+  url: https://twitter.com/Docjbev
+slides: 
+summary: This study investigates county-wide labor force participation rate (LFPR) dynamics in West Virginia.
 tags:
-- Deep Learning
-title: Example Project
+- Dynamic Factor Analysis
+- Bayesian Analysis
+- Labor Force Participation
+- West Virginia
+title: Labor Force Participation Rate Comovements in West Virginia Counties
 url_code: ""
 url_pdf: ""
 url_slides: ""
 url_video: ""
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
 
-Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.
 
-Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.
+## Summary
+The decline of the U.S. labor force participation rate (LFPR) in recent years has sparked a growing interest in various aspects of labor force participation (LFP) as an indicator for future employment and economic growth. One such topic regards spatial differences in LFPRs. Differences, especially across the urban/rural divide, have been found in various countries and across demographic subgroups including women and poor households. 
 
-Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.
+However, measuring the degree of synchronicity of LFPRs within and across urban and rural areas has received relatively little attention in the literature. This is regrettable since labor force participation (LFP) decisions synchronized across counties may impact local labor markets and contribute to persistent labor market distress. The stronger the linkages between areas, the greater the impact labor market shocks will have on the larger economy. These compounded effects imply potential obstacles to overcome in increasing labor force participation and realizing labor and economic growth in rural and distressed areas of the U.S.
 
-Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.
+In this project, we focus on the relatively rural and economically distressed state of West Virginia for a couple of reasons:
+
+1. Not only is West Virginia economically distressed, but the economic disparity compared to the rest of the U.S. has persisted for decades.
+
+2. While the inequality around skills, income, and other indicators in West Virginia have not gone unnoticed by policymakers or the media, labor force participation in the state has received relatively little attention by economists
+
+## Stage 1
+
+In the first stage of this study, we examine the role and relative importance of state, county, and metropolitan/non-metropolitan influences on the change in West Virginia county LFPRs. We decompose West Virginia county LFPRs into latent factors that measure comovement at these levels. The state, county, and metropolitan and non-metropolitan factors are estimated using a Dynamic Factor Model (DFM) with time-varying (TV) and stochastic volatility (SV) parameters.
+
+To do this we use labor force and population data over 1990-2020 from the BLS and the U.S. Census Bureau,
+respectively. These are used to calculate labor force participation rates for West Virginia counties which we classify as metropolitan or non-metropolitan. We use USDA Rural-Urban Continuum Codes to classify each county.
+
+<div class="figure" style="text-align: center">
+<img src="metro_vs_nonmetro.png" alt="Change in Labor Force Participation Rates by RUCC Status" width="90%" />
+<p class="caption">Figure 1: Change in Labor Force Participation Rates by RUCC Status</p>
+</div>
+
+## Stage 1 Results
+In our two-stage analysis, we first find that in recent years a common state-wide component has influenced change in West Virginia county LFPRs, signaling a synchronization of county labor markets. This makes West Virginia counties and the state overall more vulnerable to broad labor market shocks.
+
+<div class="figure" style="text-align: center">
+<img src="Common_loadings2.png" alt="Average RUCC Factor Laodings by RUCC Status" width="90%" />
+<p class="caption">Figure 2: Average RUCC Factor Laodings by RUCC Status</p>
+</div>
+
+We also find that non-metropolitan county LFPRs are persistently correlated with the collective movements of non-metropolitan LFPRs over time. This, again, implies a vulnerability for non-metropolitan counties to shocks, but also provides an opportunity to target many counties simultaneously with non-metropolitan specific policy, given that these areas are known to have lower LFPRs and poorer economic activity.
+
+<div class="figure" style="text-align: center">
+<img src="regional_loadingsr.png" alt="Average RUCC Factor Loadings by RUCC Status" width="90%" />
+<p class="caption">Figure 3: Average RUCC Factor Loadings by RUCC Status</p>
+</div>
+
+However, we also find evidence of idiosyncratic behavior across the state as well. About 57\% and 65\% of the variation in change in metropolitan and non-metropolitan county LFPRs is explained by county-specific components, respectively. This calls for targeting labor and economic issues more individually across the state rather than implementing state-wide ``one-size-fits-all" solutions.
+
+<div class="figure" style="text-align: center">
+<img src="wv_panel3.png" alt="Average Variance Contribution by Factor in West Virginia Over Time" width="90%" />
+<p class="caption">Figure 4: Average Variance Contribution by Factor in West Virginia Over Time</p>
+</div>
+
+
+<div class="figure" style="text-align: center">
+<img src="metroVnonmetr_var_decomp.png" alt="Variance Contribution by Factor in West Virginia" width="90%" />
+<p class="caption">Figure 5: Variance Contribution by Factor in West Virginia</p>
+</div>
+
+## Stage 2
+In the second stage of the study, we investigate these percentages further by regressing these percent contributions of the factors to LFPR variations on county characteristics such as demographics, industry composition, life expectancy, etc. This part of the analysis allows us to determine which county characteristics best explain a county's sensitivity to state and metropolitan/non-metropolitan influences on LFPRs and through which channels LFPRs can be increased. County characteristics that we include in our study are as follows:
+
+1. Percent of Industry in Government Jobs
+2. Percent of Industry in Agricultural Jobs
+3. Percent of Industry in Manufacturing Jobs
+4. Percent of Industry in Mining Jobs
+5. Percent of Industry in Non-Farm Jobs
+6. Personal Income
+7. Unemployment Rate
+8. Life Expectancy
+9. Percent of Population that is African American
+10. Percent of Population that is Female Less than 25 Years of Age
+11. Percent of Population that is Female between 25 and 54
+12. Percent of Population that is Female between 54 and 65
+13. Percent of Population that another race
+14. Percent of Population above 25 years of age with a High School Diploma
+15. Percent of Population above 25 years of age with Some College
+16. County Land Area
+17. Percent of Families with related children who receive public assistance under the Temporary Aid to Needy Families (TANF)
+18. Precipitation 
+19. Gas Production
+20. Number of Gas Wells
+21. Coal Production
+22. Has an Interstate
+
+## Second Stage Results
+
+ Lastly, we find that county demographics, education levels, income, access to interstate highways, and industry composition are strongly related to the importance of our estimated state, county, and metropolitan and non-metropolitan factors. Figure 6 shows that zero lies outside of the 95\% HPDI indicating we can be 95\% sure that increases in personal income positively impact the influence of the state factor in LFPR changes over time. Figure 6 also shows negative links exist between the importance of the state factor in explaining change in LFPR variations and the unemployment rate, share of the population that is female below the age of 25, share of population 25 or older that has some college, the number of gas wells, share of families with children that are receiving TANF, and the existence of an interstate.
+ 
+<div class="figure" style="text-align: center">
+<img src="state_hist2.jpg" alt="Variance Contribution by Factor in West Virginia" width="90%" />
+<p class="caption">Figure 6: Variance Contribution by Factor in West Virginia</p>
+</div>
+
+Figure 7 shows that zero lies outside the 95\% HPDI for agriculture and education and close to outside the bands for natural gas production. 
+
+<div class="figure" style="text-align: center">
+<img src="n_m_hist2.jpg" alt="Variance Contribution by Factor in West Virginia" width="90%" />
+<p class="caption">Figure 7: Variance Contribution by Factor in West Virginia</p>
+</div>
+
+Figure 8 shows that zero is just about outside of the 95\% HDPI, indicating strong certainty of negative relationship. 
+
+<div class="figure" style="text-align: center">
+<img src="i_hist2.jpg" alt="Variance Contribution by Factor in West Virginia" width="90%" />
+<p class="caption">Figure 8: Variance Contribution by Factor in West Virginia</p>
+</div>
+
+Summarizing our findings, we first find the correlation between metropolitan and non-metropolitan county LFPR series and the state factor to be near-zero for most periods in the sample. Near the end of the sample, the metropolitan counties followed by the non-metropolitan counties show positive correlations with the state factor indicating recent influence on the county LFPRs by a common state trend and increased synchronization of county LFPRs across the state. We also find positive correlation between the non-metropolitan factor and non-metropolitan counties for most periods in the sample which indicates a strong and persistent non-metropolitan trend. While the correlation between metropolitan counties and the metropolitan factor are near-zero for most of the sample period, we find positive correlation following the 2008-09 recession indicating a unique metropolitan influence induced by the severity of the Great Recession.
+
+Secondly, this study determines the relative importance of the factors by measuring the contribution of each factor to county LFPR variations. We find that the county factor dominates in contributing to county LFPR variations indicating significant idiosyncratic behavior across the state. Additionally, we find relatively large contribution of the non-metropolitan factor indicating noticeable rural or non-metropolitan behavior as well. Regressing these variance contributions on county characteristics reveals main drivers for the importance of each factor. County demographics, education levels, income, access to interstate highways, and industry composition are strongly related to the importance of our estimated state, county, and metropolitan and non-metropolitan factors. Larger positive increases in LFPRs are associated with increases in education, infrastructure, and industry.
+## Policy Recommendations
+
+For non-metropolitan counties specifically, policymakers should focus on formalizing informal/nonstandard work, and increasing wage income, employment opportunities, and work force development programs. For West Virginia in general, policymakers should work to support and diversify key industries in West Virginia through building infrastructure, creating accessibility, and developing a healthy, well educated, and well trained work force. A united front and a targeted focus on programs that build on the State’s unique assets and capitalize on industries such as manufacturing and gas, where West Virginia outperforms its neighboring states, provides a unique opportunity to increase jobs, infrastructure, wages, and attract potential businesses.
+
+

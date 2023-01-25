@@ -219,10 +219,14 @@ sections:
     buttons:
     - name: All
       tag: '*'
-    - name: Deep Learning
-      tag: Deep Learning
-    - name: Other
-      tag: Demo
+    - name: Dynamic Factor Analysis
+      tag: Dynamic Factor Analysis
+    - name: Bayesian Analysis
+      tag: Bayesian Analysis
+    - name: Cointegration Analysis
+      tag: Cointegration Analysis
+    - name: Labor Force Participation
+      tag: Labor Force Participation
     default_button_index: 0
     filters:
       folders:
@@ -253,7 +257,7 @@ sections:
       exclude_future: false
       exclude_past: false
       folders:
-      - classes
+      - class
       publication_type: ""
       tag: ""
     offset: 0
@@ -267,7 +271,7 @@ sections:
   id: classes  
 - block: collection
   content:
-    count: 5
+    count: 2
     filters:
       author: ""
       category: ""
